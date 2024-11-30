@@ -57,6 +57,15 @@ h3 {
   margin-bottom: 16px;
   color: bisque;
 }
+.heading__cat {
+  margin-top: 100px;
+  max-width: 792px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 70px;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
 
 .paragraph {
   font-size: 24px;
@@ -181,6 +190,15 @@ h3 {
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 56px;
+  margin-top: 32px;
+}
+.product__block_cat {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 48px;
   margin-top: 32px;
 }
 
@@ -401,7 +419,11 @@ h3 {
          column-gap: 29px;
     row-gap: 39px;
   }
-
+  .product__block_cat {
+    row-gap: 30px;
+    -moz-column-gap: 29px;
+         column-gap: 29px;
+  }
   .down_logo {
     display: none;
   }
@@ -421,16 +443,27 @@ h3 {
     padding-top: 32px;
     border: none;
   }
-  .heading-big_logo {
-    width: 99px;
-  }
   .heading {
     font-size: 48px;
     line-height: 59px;
     text-align: center;
     margin-top: 46px;
   }
-
+  .heading__cat {
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .heading__cart {
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .heading__cart__left {
+    flex-wrap: wrap;
+  }
   .paragraph {
     font-size: 16px;
     text-align: center;
@@ -450,19 +483,19 @@ h3 {
     gap: 16px;
   }
   .for-item1 {
-    background-image: url(img/light/for_rest.jpg);
+    background-size: cover;
   }
   .for-item2 {
-    background-image: url(img/light/for_work.jpg);
+    background-size: cover;
   }
   .for-item3 {
-    background-image: url(img/light/for_kitchen.jpg);
+    background-size: cover;
   }
   .for-item4 {
-    background-image: url(img/light/for_children.jpg);
+    background-size: cover;
   }
   .for-item5 {
-    background-image: url(img/light/for_bath.jpg);
+    background-size: cover;
   }
   .sections_for {
     height: 375px;

@@ -9,9 +9,6 @@
   .heading-big {
     padding-top: 32px;
     border: none;
-    &_logo {
-      width: 99px;
-    }
   }
   .heading {
     font-size: 48px;
@@ -53,19 +50,19 @@
       gap: 16px;
     }
     &-item1 {
-      background-image: url(img/light/for_rest.jpg);
+      background-size: cover;
     }
     &-item2 {
-      background-image: url(img/light/for_work.jpg);
+      background-size: cover;
     }
     &-item3 {
-      background-image: url(img/light/for_kitchen.jpg);
+      background-size: cover;
     }
     &-item4 {
-      background-image: url(img/light/for_children.jpg);
+      background-size: cover;
     }
     &-item5 {
-      background-image: url(img/light/for_bath.jpg);
+      background-size: cover;
     }
   }
   .sections_for {
