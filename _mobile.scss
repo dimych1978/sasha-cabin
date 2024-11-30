@@ -15,27 +15,26 @@
     line-height: 59px;
     text-align: center;
     margin-top: 46px;
-    &__cat {
-      font-size: 48px;
-      line-height: 59px;
-      text-align: center;
-      margin-top: 100px;
-    }
-    &__cart {
-      font-size: 48px;
-      line-height: 59px;
-      text-align: center;
-      margin-top: 100px;
-      &__left {
-        flex-wrap: wrap;
-      }
-    }
+  }
+  .heading__cat {
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .heading__cart {
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .heading__cart__left {
+    flex-wrap: wrap;
   }
   .paragraph {
     font-size: 16px;
     text-align: center;
   }
-
   .heading-2_style {
     font-weight: 600;
     font-size: 24px;
@@ -45,39 +44,34 @@
   }
   .for {
     margin-top: 0;
-    &__block {
-      grid-template-columns: repeat(4, 1fr);
-      gap: 16px;
-    }
-    &-item1 {
-      background-size: cover;
-    }
-    &-item2 {
-      background-size: cover;
-    }
-    &-item3 {
-      background-size: cover;
-    }
-    &-item4 {
-      background-size: cover;
-    }
-    &-item5 {
-      background-size: cover;
-    }
+  }
+  .for__block {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column for mobile */
+    gap: 16px;
+  }
+  .for-item1,
+  .for-item2,
+  .for-item3,
+  .for-item4,
+  .for-item5 {
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    min-height: 200px; /* Adjust height as needed */
   }
   .sections_for {
-    height: 375px;
-    grid-column: 1/-1;
+    height: auto; /* Adjust height as needed */
+    grid-column: 1 / -1;
     margin-top: 0;
   }
   .sections_for_up {
-    height: 244px;
+    height: auto; /* Adjust height as needed */
   }
   .special {
     margin-top: 0;
-    &__block {
-      margin-top: 0;
-    }
+  }
+  .special__block {
+    margin-top: 0;
   }
   .subject {
     font-weight: 500;
@@ -91,9 +85,9 @@
   }
   .product {
     margin-top: 0;
-    &__block {
-      margin-top: 0;
-    }
+  }
+  .product__block {
+    margin-top: 0;
   }
   .sections {
     width: 100%;
