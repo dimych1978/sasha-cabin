@@ -490,7 +490,7 @@ h3 {
   .for-item5 {
     background-size: cover;
     background-position: center; /* Center the background image */
-    min-height: 200px; /* Adjust height as needed */
+    min-height: 300px; /* Adjust min-height as needed */
   }
   .sections_for {
     height: auto; /* Adjust height as needed */
