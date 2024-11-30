@@ -1,0 +1,119 @@
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top_main {
+    background-image: url(https://mirturbaz.ru/uploads/picture/pic/1183499/big_yJu0119RWyM.jpg);
+  }
+  .heading-big {
+    padding-top: 32px;
+    border: none;
+    &_logo {
+      width: 99px;
+    }
+  }
+  .heading {
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    margin-top: 46px;
+    &__cat {
+      font-size: 48px;
+      line-height: 59px;
+      text-align: center;
+      margin-top: 100px;
+    }
+    &__cart {
+      font-size: 48px;
+      line-height: 59px;
+      text-align: center;
+      margin-top: 100px;
+      &__left {
+        flex-wrap: wrap;
+      }
+    }
+  }
+  .paragraph {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .heading-2_style {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .for {
+    margin-top: 0;
+    &__block {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+    &-item1 {
+      background-image: url(img/light/for_rest.jpg);
+    }
+    &-item2 {
+      background-image: url(img/light/for_work.jpg);
+    }
+    &-item3 {
+      background-image: url(img/light/for_kitchen.jpg);
+    }
+    &-item4 {
+      background-image: url(img/light/for_children.jpg);
+    }
+    &-item5 {
+      background-image: url(img/light/for_bath.jpg);
+    }
+  }
+  .sections_for {
+    height: 375px;
+    grid-column: 1/-1;
+    margin-top: 0;
+  }
+  .sections_for_up {
+    height: 244px;
+  }
+  .special {
+    margin-top: 0;
+    &__block {
+      margin-top: 0;
+    }
+  }
+  .subject {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .subject-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .product {
+    margin-top: 0;
+    &__block {
+      margin-top: 0;
+    }
+  }
+  .sections {
+    width: 100%;
+  }
+  .foot_container {
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+  .contacts {
+    flex-basis: auto;
+  }
+  .under-paragraph {
+    font-family: montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .forms {
+    padding-top: 36px;
+  }
+}

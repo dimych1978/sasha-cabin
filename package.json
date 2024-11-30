@@ -1,0 +1,12 @@
+{
+  "name": "village-houses",
+  "version": "1.0.0",
+  "description": "site with description houses at Syamozero",
+  "main": "index.js",
+  "repository": "git@github.com:dimych1978/sasha-cabin.git",
+  "author": "dimych1978 <dimych1978@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": ""
+  }
+}

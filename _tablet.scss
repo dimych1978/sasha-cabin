@@ -1,0 +1,41 @@
+@media (max-width: 1024px) {
+  // тут стили для планшета
+  .center {
+    padding-left: calc(50% - 786px / 2);
+    padding-right: calc(50% - 786px / 2);
+  }
+}
+@media (min-width: 834px) and (max-width: 1024px) {
+}
+@media (min-width: 833px) {
+  .center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .for__block {
+    padding-top: 2px;
+    gap: 30px;
+  }
+  .sections_for {
+    height: 268px;
+  }
+  .special__block {
+    column-gap: 29px;
+    row-gap: 39px;
+  }
+  .product__block {
+    column-gap: 29px;
+    row-gap: 39px;
+    &_cat {
+      row-gap: 30px;
+      column-gap: 29px;
+    }
+  }
+  .down_logo {
+    display: none;
+  }
+  .contacts {
+    flex-basis: 23%;
+  }
+}
+
